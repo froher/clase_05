@@ -1,6 +1,6 @@
 *{
-    padding: 10;
-    margin: 10;
+    padding: 50;
+    margin: 50;
     box-sizing: border-box;
 }
 body{
@@ -15,18 +15,18 @@ body{
     place-items: center;
 }
 .semaforo{
-    width: 100px;
-    height: 200px;
-    border-radius: 30px;
+    width: 50px;
+    height: 100px;
+    border-radius: 15px;
     display: grid;
     place-items: center;
     background-color: #2c3e50;
-    padding: 10px;
+    padding: 5px;
 }
 .luces-circulo{
     display: block;
-    width: 45px;
-    height: 45px;
+    width: 22,5px;
+    height: 22,5px;
     border-radius: 50%;
     background-color: rgb(0, 0,0,0.3);
     position: relative;
@@ -34,23 +34,23 @@ body{
 .luces-circulo::after{
     content: '';
     position: absolute;
-    width: 40px;
-    height: 40px;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
     border-right: 4px solid rgb(255, 255,255,0.6);
     top: 5%;
 }
 .red{
     background-color: #c0392b;
-    box-shadow: 0 0 10px 1px #c0392b;
+    box-shadow: 0 0 5px 1px #c0392b;
 }
 .yellow{
     background-color: #f1c40f;
-    box-shadow: 0 0 10px 1px #f1c40f;
+    box-shadow: 0 0 5px 1px #f1c40f;
 }
 .green{
     background-color: #2ecc71;
-    box-shadow: 0 0 10px 1px #2ecc71;
+    box-shadow: 0 0 5px 1px #2ecc71;
 }
 
 
