@@ -4,8 +4,8 @@
     box-sizing: border-box;
 }
 body{
-    width: 100%;
-    min-height: 200vh;
+    width: 400%;
+    min-height: 600vh;
     display: grid;
     place-items: center;
     background-color: #FFFFFF;
